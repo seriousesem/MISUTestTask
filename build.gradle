@@ -8,3 +8,9 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+ext {
+    navigationVersion = '2.4.2'
+    fragmentKtxVersion = '1.4.1'
+    swipeRefresh = '1.1.0'
+    viewPager2 = '1.0.0'
+}

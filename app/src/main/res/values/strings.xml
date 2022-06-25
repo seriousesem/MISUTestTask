@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MISU test task</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab0_name">Вкладка 0</string>
+    <string name="tab1_name">Вкладка 1</string>
+    <string name="tab2_name">Вкладка 2</string>
+    <string name="tab3_name">Вкладка 3</string>
 </resources>
