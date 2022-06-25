@@ -2,26 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/page_0"
-        android:enabled="true"
-        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:icon="@drawable/ic_tab_icon_foreground"
         android:title=""
         />
     <item
         android:id="@+id/page_1"
-        android:enabled="true"
-        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:icon="@drawable/ic_tab_icon_foreground"
         android:title=""
         />
     <item
         android:id="@+id/page_2"
-        android:enabled="true"
-        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:icon="@drawable/ic_tab_icon_foreground"
         android:title=""
         />
     <item
         android:id="@+id/page_3"
-        android:enabled="true"
-        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:icon="@drawable/ic_tab_icon_foreground"
         android:title=""
         />
 </menu>

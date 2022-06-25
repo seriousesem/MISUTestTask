@@ -3,11 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/tabZeroFragment">
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.serioussem.misutesttask.presentation.screens.HomeFragment"
-        android:label="home_fragment"
-        tools:layout="@layout/home_fragment" />
+        android:id="@+id/tabOneFragment"
+        android:name="com.serioussem.misutesttask.presentation.screens.TabOneFragment"
+        android:label="TabOneFragment"
+        tools:layout="@layout/tabs_fragment"
+        />
+    <fragment
+        android:id="@+id/tabThreeFragment"
+        android:name="com.serioussem.misutesttask.presentation.screens.TabThreeFragment"
+        tools:layout="@layout/tabs_fragment"
+        android:label="TabThreeFragment" />
+    <fragment
+        android:id="@+id/tabTwoFragment"
+        android:name="com.serioussem.misutesttask.presentation.screens.TabTwoFragment"
+        tools:layout="@layout/tabs_fragment"
+        android:label="TabTwoFragment" />
+    <fragment
+        android:id="@+id/tabZeroFragment"
+        android:name="com.serioussem.misutesttask.presentation.screens.TabZeroFragment"
+        tools:layout="@layout/tabs_fragment"
+        android:label="TabZeroFragment" />
 </navigation>
