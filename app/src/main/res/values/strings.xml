@@ -1,8 +1,37 @@
 <resources>
     <string name="app_name">MISU test task</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="tab0_name">Вкладка 0</string>
-    <string name="tab1_name">Вкладка 1</string>
-    <string name="tab2_name">Вкладка 2</string>
-    <string name="tab3_name">Вкладка 3</string>
+    <string name="family_doctor">Сімейний лікар</string>
+    <string name="doctor_online">Лікар Онлайн</string>
+    <string name="specialty_1">Сімейний лікар</string>
+    <string name="specialty_2">Педіатр</string>
+    <string name="specialty_3">Ендокринолог</string>
+    <string name="specialty_4">Хірург</string>
+    <string name="back">back</string>
+    <string name="check">check</string>
+    <string name="avatar">avatar</string>
+    <string name="child_0_16">Діти 0–16 р.</string>
+    <string name="child_0_3">Діти 0–3 р.</string>
+    <string name="child_7_16">Діти 7–16 р.</string>
+    <string name="covid">Covid-19</string>
+    <string name="adults">Дорослі</string>
+    <string name="responsibility_1">Лікар спеціалізується на сімейній медицині</string>
+    <string name="responsibility_2">Проводить первинний лікарський патронаж новонародженого</string>
+    <string name="responsibility_3">Веде прийом для дітей від народження</string>
+    <string name="responsibility_4">Здійснює прийом пацієнтів амбулаторно</string>
+    <string name="responsibility_5">Діагностика та лікування захворювань дорослих; консультаціїї
+    з приводу ваккцинації
+    </string>
+    <string name="location_icon">location_icon</string>
+    <string name="location_1">м. Рівне</string>
+    <string name="location_2">м. Кам\'янець-Подільський</string>
+    <string name="location_3">м. Одеса</string>
+    <string name="location_4">м. Дніпро</string>
+    <string name="location_5">м. Львів</string>
+    <string name="name_1">Анастасія Городищенко</string>
+    <string name="name_2">Галина Дмитренко</string>
+    <string name="name_3">Інна Омельчук</string>
+    <string name="name_4">Ольга Латишева</string>
+    <string name="name_5">Павло Швець</string>
+
 </resources>

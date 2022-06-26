@@ -13,4 +13,8 @@ ext {
     fragmentKtxVersion = '1.4.1'
     swipeRefresh = '1.1.0'
     viewPager2 = '1.0.0'
+    rvVersion = '1.2.1'
+    glideVersion = '4.13.0'
+    lifecycleVersion = '2.4.1'
+    koin_version= "3.2.0"
 }

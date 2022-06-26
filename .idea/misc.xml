@@ -3,9 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/home_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.13" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/drawable/ic_baseline_place_24.xml" value="0.13" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/drawable/top_menu_btn_bg.xml" value="0.153" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/doctor_holder.xml" value="0.25" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/doctor_holder_item.xml" value="0.25" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/doctor_online_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/home_activity.xml" value="0.22" />
         <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/home_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/horizontal_rv_holder_item.xml" value="0.75" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/patients_holder.xml" value="0.5" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/responsibility_holder.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/responsibility_holder_item.xml" value="0.5" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/speciality_holder_item.xml" value="0.203125" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/specialty_holder.xml" value="0.1" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/specialty_holder_item.xml" value="0.5" />
         <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/tabs_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/layout/top_menu_holder_item.xml" value="0.33" />
         <entry key="..\:/Users/iSem/AndroidStudioProjects/MISUtesttask/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
       </map>
     </option>

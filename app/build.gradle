@@ -37,24 +37,30 @@ android {
 
 dependencies {
 
+    // Koin for Android
+    implementation "io.insert-koin:koin-android:$rootProject.koin_version"
+    implementation "io.insert-koin:koin-core:$rootProject.koin_version"
     // Fragment
     implementation "androidx.fragment:fragment-ktx:$rootProject.fragmentKtxVersion"
-    // ViewPager2
-    implementation "androidx.viewpager2:viewpager2:$rootProject.viewPager2"
+    // Lifecycle
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$rootProject.lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$rootProject.lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.lifecycleVersion"
     // Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$rootProject.navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$rootProject.navigationVersion"
-    // BottomSheet
-    implementation "androidx.support:appcompat-v7:1.0.0"
-    implementation "androidx.support:design:1.0.0"
+    // Recycler view
+    implementation "androidx.recyclerview:recyclerview:$rootProject.rvVersion"
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$rootProject.glideVersion"
+    kapt "com.github.bumptech.glide:compiler:$rootProject.glideVersion"
 
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.2'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.4.2'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'

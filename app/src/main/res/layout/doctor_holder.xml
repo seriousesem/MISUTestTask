@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/specialty_card_view"
+    android:layout_margin="8dp"
+    android:paddingVertical="4dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/avatar_img"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/avatar"
+        android:src="@drawable/doctor_female_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/doctor_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="8dp"
+        tools:text="@string/name_1"
+        app:layout_constraintStart_toEndOf="@+id/avatar_img"
+        app:layout_constraintTop_toTopOf="@+id/avatar_img" />
+
+    <TextView
+        android:id="@+id/specialty_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        tools:text="@string/family_doctor"
+        app:layout_constraintStart_toEndOf="@+id/avatar_img"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_name_tv" />
+
+    <ImageView
+        android:id="@+id/location_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/location_icon"
+        android:src="@drawable/ic_baseline_place_24"
+        app:layout_constraintStart_toEndOf="@+id/avatar_img"
+        app:layout_constraintTop_toBottomOf="@+id/specialty_tv"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/location_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_icon"
+        app:layout_constraintStart_toEndOf="@+id/location_icon"
+        app:layout_constraintTop_toTopOf="@+id/location_icon"
+        tools:text="@string/location_2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/patients_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal"
+        tools:itemCount="3"
+        tools:listitem="@layout/patients_holder"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_img"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/services_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="8dp"
+        android:lines="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients_rv"
+        tools:text="@string/responsibility_5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

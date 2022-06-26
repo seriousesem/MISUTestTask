@@ -3,11 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/doctorOnlineFragment">
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.serioussem.misutesttask.presentation.screens.HomeFragment"
-        android:label="home_fragment"
-        tools:layout="@layout/home_fragment" />
+        android:id="@+id/doctorOnlineFragment"
+        android:name="com.serioussem.misutesttask.presentation.screens.DoctorOnlineFragment"
+        android:label="DoctorOnlineFragment" />
 </navigation>
