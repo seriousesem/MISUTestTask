@@ -6,7 +6,7 @@ import com.serioussem.misutesttask.presentation.core.BaseFragment
 
 class TabTwoFragment : BaseFragment<TabsFragmentBinding>(TabsFragmentBinding::inflate)  {
     override fun init() {
-        binding.fragmentNameTv.setText(R.string.tab3_name)
+        binding.fragmentNameTv.setText(R.string.tab2_name)
     }
 }
 
